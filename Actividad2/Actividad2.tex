@@ -1,0 +1,96 @@
+\documentclass{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\title{Reporte de Actividad 2}
+\author{Alexis Martínez \\
+Departamento de Física \\
+Universidad de Sonora}
+\date{2 de Septiembre del 2015}
+
+\begin{document}
+\maketitle
+
+\section{Introducción}
+Un lenguaje de programacion es una serie de algoritmos codificados para llevar acabo una accion en una computadora. Generalmente usan compiladores e interpretadores para transferir los algoritmos a otro lenguaje que sea entendible para la maquina.
+
+\section{Antecedentes}
+Los primeros lenguajes de programación preceden a la computadora moderna. En un inicio los lenguajes eran códigos. La máquina del telar de Jacquard, creada en 1801, utilizaba los orificios en tarjetas perforadas para representar los movimientos de un brazo de la máquina de tejer, con el objetivo de generarpatrones decorativos automáticamente. Durante un período de nueve meses entre 1842 y 1843, Ada Lovelace tradujo las memorias del matemático italiano Luigi Menabrea acerca de la nueva máquina propuesta por Charles Babbage, la Máquina Analítica. Con estos escritos, ella añadió unas notas en las cuales especificaba en detalle un método para calcular los números de Bernoulli con esta máquina, el cual es reconocido por muchos historiadores como el primer programa de computadora del mundo. \\
+En la década de 1940 fueron creadas las primeras computadoras modernas, con alimentación eléctrica. La velocidad y capacidad de memoria limitadas forzaron a los programadores a escribir programas en lenguaje ensamblador muy afinados. Finalmente se dieron cuenta de que la programación en lenguaje ensamblador requería de un gran esfuerzo intelectual y era muy propensa a errores. \\
+En los cincuenta, los tres primeros lenguajes de programación modernos, cuyos descendientes aún continúan siendo utilizados, cuales son FORTRAN (1955), LISP (1958), COBOL (1959).\\
+
+\subsection{Compiladores e Interpretadores}
+Un compilador es un programa informático que traduce un programa escrito en un lenguaje de programación a otro lenguaje de programación, generando un programa equivalente que la máquina será capaz de interpretar. Usualmente el segundo lenguaje es lenguaje de máquina, pero también puede ser un código intermedio , o simplemente texto. Este proceso de traducción se conoce como compilación.\\
+\\
+Interpretador es un programa informático capaz de analizar y ejecutar otros programas, escritos en un lenguaje de alto nivel. Los intérpretes se diferencian de los compiladores en que mientras estos traducen un programa desde su descripción en un lenguaje de programación al código de máquina del sistema, los intérpretes sólo realizan la traducción a medida que sea necesaria, típicamente, instrucción por instrucción, y normalmente no guardan el resultado de dicha traducción.
+
+\subsection{Lenguajes de Programación Cientifica}
+
+\begin{tabular}{ |l|l|l|l| }
+\hline
+Nombre & Creadores & Año de Aparición & Extensiónes  \\
+\hline
+C & Dennis Ritchie & 1972 & .c, .h  \\
+C++ &  Bjarne Stroustrup & 1983 & .cc .cpp .cxx .c .c++ .h .hpp .h++  \\
+Fortran & John Backus & 1957 & .f, .for, .f90, .f95 \\
+Java & James Gosling & 1995 & .java , .class, .jar \\
+Python  & Guido van Rossum & 1991 & .py, .pyc, .pyd, .pyo, pyw, pyz \\
+Ruby & Yukihiro Matsumoto & 1995 & rb, .rbw \\
+\hline
+\end{tabular}
+
+\section{Resultados: Hola Mundo}
+\subsection{C}
+El código empleado así:
+\begin{verbatim}
+#include <iostream>
+
+int main()
+{
+    std::cout << "Hello, world!\n";
+}
+\end{verbatim}
+\subsection{C++}
+El código empleado así:
+\begin{verbatim}
+#include <iostream>
+
+int main()
+{
+    std::cout << "Hello, world!\n";
+}
+\end{verbatim}
+\subsection{Fortran}
+El código empleado así:
+\begin{verbatim}
+program hello
+    write(*,*) 'Hello, world!'
+end program hello
+\end{verbatim}
+\subsection{Java}
+El código empleado así:
+\begin{verbatim}
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        System.out.println("Hello, World");
+    }
+
+}
+\end{verbatim}
+\subsection{Python}
+El código empleado así:
+\begin{verbatim}
+print "Hello, world! in Python"
+\end{verbatim}
+\subsection{Ruby}
+El código empleado así:
+\begin{verbatim}
+puts "Hello, world!"
+\end{verbatim}
+
+\section{Conclusión}
+A lo largo del tiempo, los lenguajes han estado cambiando de manera que
+nos dejan mas utilidad, pero llevan un seguimiento de hacerlos mas complejos. \\
+Los avances innumerables dentro de la ciencia, han demostrado que gracias a la optimizacion de calculos por segundo de una maquina, comparada a la de un humano, es totalmente necesario para seguir dando pasos mas adentro de la ciencia. Por ejemplo las simulaciones generadas para determinar trayectorias de la materia oscura en el universo.
+\end{document}
